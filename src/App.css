@@ -24,6 +24,7 @@
   border-radius: 8px;
   box-shadow: 0 10px 10px rgb(0 0 0 /30%);
   margin: 20px 0;
+  font-size: 14px;
 }
 .App .branding-link {
   color: var(--branding-color);
