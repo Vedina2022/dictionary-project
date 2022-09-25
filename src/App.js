@@ -15,7 +15,26 @@ function App() {
           <Dictionary defaultKeyword="love" />
         </main>
         <footer className="App-footer mt-5">
-          <small>Coded by Nadiia Kyshinska</small>
+          This project was coded by
+          <a
+            href="https://www.linkedin.com/in/nadiia-kyshinska-8aa342168/"
+            target="_blank"
+            title="LinkedIn profile"
+            className="branding-link"
+          >
+            {" "}
+            Nadiia Kyshinska
+          </a>{" "}
+          and it is
+          <a
+            href="https://github.com/Vedina2022/dictionary-project"
+            target="_blank"
+            className="branding-link"
+            title="GitHub link"
+          >
+            {" "}
+            open-sourced
+          </a>
         </footer>
       </div>
     </div>

@@ -18,3 +18,14 @@
   font-family: "Niconne", cursive;
   font-size: 46px;
 }
+.App footer {
+  background: rgba(206, 198, 184, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgb(0 0 0 /30%);
+  margin: 20px 0;
+}
+.App .branding-link {
+  color: var(--branding-color);
+  font-style: italic;
+}
