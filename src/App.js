@@ -21,6 +21,7 @@ function App() {
             target="_blank"
             title="LinkedIn profile"
             className="branding-link"
+            rel="noreferrer"
           >
             {" "}
             Nadiia Kyshinska
@@ -31,6 +32,7 @@ function App() {
             target="_blank"
             className="branding-link"
             title="GitHub link"
+            rel="noreferrer"
           >
             {" "}
             open-sourced
