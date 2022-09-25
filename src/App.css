@@ -1,8 +1,20 @@
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: none;
+}
 .App-footer {
   text-align: center;
   margin: 20px 0;
 }
 .App-header {
   text-align: center;
-  font-size: 48px;
+  font-size: 62px;
+  font-family: "Calistoga", cursive;
+  margin-top: 30px;
+  color: var(--branding-color);
+}
+.App h3 {
+  text-align: center;
+  font-family: "Niconne", cursive;
+  font-size: 46px;
 }

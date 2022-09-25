@@ -11,7 +11,8 @@ function App() {
           <div className="class"></div>
         </header>
         <main>
-          <Dictionary />
+          <h3 className="mb-5">"In the beginning was the Word.."</h3>
+          <Dictionary defaultKeyword="love" />
         </main>
         <footer className="App-footer mt-5">
           <small>Coded by Nadiia Kyshinska</small>
