@@ -9,11 +9,11 @@ export default function Photos(props) {
           {props.photos.map(function (photo, index) {
             console.log(photo);
             return (
-              <div className="col-4" key={index}>
+              <div className="col-sm-4" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={photo.src.landscape}
-                    alt="word"
+                    alt="WordImage"
                     className="img-fluid"
                   />
                 </a>

@@ -2,6 +2,11 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: none;
 }
+
+.App .container {
+  max-width: 1000px;
+}
+
 .App-footer {
   text-align: center;
   margin: 20px 0;
@@ -29,4 +34,24 @@
 .App .branding-link {
   color: var(--branding-color);
   font-style: italic;
+}
+.App .branding-link:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+@media (max-width: 540px) {
+  .App-header {
+    margin-top: 15px;
+  }
+  .App h3 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 280px) {
+  .App-header {
+    font-size: 50px;
+  }
+  .App h3 {
+    font-size: 32px;
+  }
 }

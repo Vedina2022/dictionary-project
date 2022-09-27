@@ -11,7 +11,7 @@ function App() {
           <div className="class"></div>
         </header>
         <main>
-          <h3 className="mb-5">"In the beginning was the Word.."</h3>
+          <h3 className="mb-4">"In the beginning was the Word.."</h3>
           <Dictionary defaultKeyword="love" />
         </main>
         <footer className="App-footer mt-5">
@@ -26,7 +26,7 @@ function App() {
             {" "}
             Nadiia Kyshinska
           </a>{" "}
-          and it is
+          and is
           <a
             href="https://github.com/Vedina2022/dictionary-project"
             target="_blank"
@@ -35,8 +35,19 @@ function App() {
             rel="noreferrer"
           >
             {" "}
-            open-sourced
-          </a>
+            open-sourced on GitHub.
+          </a>{" "}
+          Photos provided by
+          <a
+            href="https://www.pexels.com"
+            target="_blank"
+            rel="noreferrer"
+            title="Photos provider's link"
+            className="branding-link"
+          >
+            {" "}
+            Pexels
+          </a>{" "}
         </footer>
       </div>
     </div>

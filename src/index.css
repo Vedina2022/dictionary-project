@@ -7,3 +7,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+@media (max-width: 912px) {
+  body {
+    background-position: center;
+  }
+}

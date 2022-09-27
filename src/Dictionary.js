@@ -3,6 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import { FaSistrix } from "react-icons/fa";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -46,22 +47,16 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <form onSubmit={handleSubmit}>
-            <div className="row">
-              <div className="col-10">
-                <input
-                  type="search"
-                  placeholder="Search for a word"
-                  onChange={handleKeywordChange}
-                  defaultValue={props.defaultKeyword}
-                />
-              </div>
-              <div className="col-2">
-                <button type="submit" className="search-btn">
-                  Search
-                </button>
-              </div>
+          <form onSubmit={handleSubmit} className="search-form">
+            <div>
+              <FaSistrix className="search-icon" />
             </div>
+            <input
+              type="search"
+              placeholder="Search for a word"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            />
           </form>
         </section>
         <Results results={results} />
