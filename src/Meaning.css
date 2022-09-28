@@ -9,15 +9,18 @@
   font-style: italic;
   color: var(--branding-color);
 }
+
 .Meaning li::marker {
-  content: "♦  ";
-  color: black;
+  content: "◆  ";
+  color: var(--branding-color);
+  font-size: 15px;
 }
 .Meaning li {
   line-height: 1.5;
 }
 .Meaning .Synonyms {
   display: inline-block;
-  line-height: 0.5;
+  margin-bottom: 0;
+  line-height: 1.5;
   color: var(--branding-color);
 }
