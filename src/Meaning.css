@@ -11,6 +11,7 @@
 }
 .Meaning li::marker {
   content: "♦  ";
+  color: black;
 }
 .Meaning li {
   line-height: 1.5;

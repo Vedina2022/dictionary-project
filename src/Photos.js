@@ -10,7 +10,12 @@ export default function Photos(props) {
             console.log(photo);
             return (
               <div className="col-sm-4" key={index}>
-                <a href={photo.src.original} target="_blank" rel="noreferrer">
+                <a
+                  href={photo.src.original}
+                  target="_blank"
+                  rel="noreferrer"
+                  title="photos' provider link"
+                >
                   <img
                     src={photo.src.landscape}
                     alt="WordImage"
