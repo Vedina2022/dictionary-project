@@ -24,3 +24,8 @@
   line-height: 1.5;
   color: var(--branding-color);
 }
+@media (max-width: 540px) {
+  .Meaning li::marker {
+    font-size: 12px;
+  }
+}
