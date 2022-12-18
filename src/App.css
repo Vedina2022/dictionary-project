@@ -33,11 +33,12 @@
 }
 .App .branding-link {
   color: var(--branding-color);
-  font-style: italic;
+  /* font-style: italic; */
+  font-weight: bold;
+  text-decoration: none;
 }
 .App .branding-link:hover {
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration: underline;
 }
 @media (max-width: 540px) {
   .App-header {

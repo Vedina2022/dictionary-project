@@ -1,5 +1,5 @@
 .Meaning {
-  font-size: 18px;
+  font-size: 16px;
 }
 .Meaning h4 {
   color: var(--branding-color);
@@ -13,7 +13,7 @@
 .Meaning li::marker {
   content: "◆  ";
   color: var(--branding-color);
-  font-size: 15px;
+  font-size: 12px;
 }
 .Meaning li {
   line-height: 1.5;
