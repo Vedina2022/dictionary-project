@@ -28,4 +28,7 @@
   .Meaning li::marker {
     font-size: 12px;
   }
+  .Meaning h4 {
+    font-size: 18px;
+  }
 }

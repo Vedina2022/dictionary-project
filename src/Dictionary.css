@@ -44,4 +44,7 @@ input {
   .Dictionary section {
     padding: 10px;
   }
+  .Results h2 {
+    font-size: 24px;
+  }
 }
